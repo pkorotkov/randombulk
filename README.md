@@ -1,6 +1,8 @@
 # randombulk
 A library to generate random binary files
 
+[![GoDoc](https://godoc.org/github.com/pkorotkov/randombulk?status.svg)](https://godoc.org/github.com/pkorotkov/randombulk)
+
 ## Installation
     go get -u -v github.com/pkorotkov/randombulk
     
