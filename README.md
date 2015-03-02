@@ -11,7 +11,7 @@ A library to generate random binary files
 import (
     "fmt"
     
-    _ "github.com/pkorotkov/randombulk"
+    . "github.com/pkorotkov/randombulk"
 )
 
 func main() {
