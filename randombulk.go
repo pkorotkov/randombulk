@@ -112,6 +112,7 @@ func (rb *RandomBulk) DumpToFile(filePath string, minFileSize int64, isASCII boo
 		file *bufio.Writer
 	)
 	if f, err = os.Create(filePath); err != nil {
+		fileLength = -1
 		return
 	}
 	file = bufio.NewWriterSize(f, rb.fileBufferSize)
