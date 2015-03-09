@@ -2,7 +2,6 @@ package randombulk
 
 import (
 	"bufio"
-	"io"
 	"math"
 	"math/rand"
 	"os"
